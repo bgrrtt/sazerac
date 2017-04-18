@@ -1,0 +1,25 @@
+{
+  "name": "Sazerac.css",
+  "version": "1.0.0",
+  "author": "Branden Garrett, <bgrrtt@mizzen.cc>",
+  "description": "An opinionated Sass cocktail with awesome ingredients.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgrrtt/sazerac.css.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1"
+  }
+}
