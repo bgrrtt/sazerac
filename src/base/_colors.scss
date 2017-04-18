@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////
+// Colors
+////////////////////////////////////////////////////////////////////////////////
+
+// Text
+$body-color:    #333333;
+$heading-color: $body-color;
+$main-bg-color: #ffffff;
+
+// Links
+$link-color: #3a3ccc;
+$link-hover-color: lighten($link-color, 15);
+
+$alt-link-color: #3a3ccc;
+$alt-link-hover-color: lighten($link-color, 15);
+
+// Borders
+$border-color: lighten($body-color, 50);
+$border-color-hover: $body-color;
+$border-color-focus: $link-color;
